@@ -1,0 +1,27 @@
+# Global configuration file for SmallEnginePartsAgent
+
+agent_pool:
+  max_instances: 5
+  browser_type: "puppeteer"
+  timeout_seconds: 30
+
+scrapers:
+  partstree:
+    url: "https://www.partstree.com/"
+    search_selector: "input[name='q']"
+    sections: ["parts", "models"]
+  rotary:
+    url: "https://www.rotarycorp.com/"
+    search_selector: "#search-form input"
+  stens:
+    url: "https://www.stens.com/"
+  jackssmallengine:
+    url: "https://www.jackssmallengines.com/"
+  medart:
+    url: "https://www.medartmarine.com/"
+  marrsbro:
+    url: "https://marrbros.com/"
+
+output:
+  format: "json"
+  fields: ["part_number", "model_number", "price", "link", "description", "superseded_part", "info_size"]

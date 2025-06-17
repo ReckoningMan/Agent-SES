@@ -1,0 +1,43 @@
+{
+  "125-183": {
+    "results": [
+      {
+        "info": "No product data found",
+        "pageTitle": "Shopping",
+        "pageUrl": "https://www.stens.com/search?keywords=125-183",
+        "source": "stens.com",
+        "query": "125-183"
+      }
+    ],
+    "duration": "1.87"
+  },
+  "125-527": {
+    "results": [
+      {
+        "info": "No product data found",
+        "pageTitle": "Shopping",
+        "pageUrl": "https://www.stens.com/search?keywords=125-527",
+        "source": "stens.com",
+        "query": "125-527"
+      }
+    ],
+    "duration": "0.76"
+  },
+  "125-532": {
+    "results": [
+      {
+        "info": "No product data found",
+        "pageTitle": "Shopping",
+        "pageUrl": "https://www.stens.com/search?keywords=125-532",
+        "source": "stens.com",
+        "query": "125-532"
+      }
+    ],
+    "duration": "0.79"
+  },
+  "summary": {
+    "totalDuration": "3.96",
+    "partsProcessed": 3,
+    "averageDuration": "1.32"
+  }
+}

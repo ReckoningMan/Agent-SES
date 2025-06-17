@@ -1,0 +1,5 @@
+{
+  "timestamp": "2025-06-15T00:14:51.375Z",
+  "errorMessage": "net::ERR_HTTP2_PROTOCOL_ERROR at https://www.stens.com/search?keywords=11659",
+  "errorStack": "Error: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.stens.com/search?keywords=11659\n    at navigate (C:\\Users\\Home\\Desktop\\SmallEnginePartsAgent\\agent\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:183:27)\n    at async Deferred.race (C:\\Users\\Home\\Desktop\\SmallEnginePartsAgent\\agent\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\util\\Deferred.js:36:20)\n    at async CdpFrame.goto (C:\\Users\\Home\\Desktop\\SmallEnginePartsAgent\\agent\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\cdp\\Frame.js:149:25)\n    at async CdpPage.goto (C:\\Users\\Home\\Desktop\\SmallEnginePartsAgent\\agent\\node_modules\\puppeteer-core\\lib\\cjs\\puppeteer\\api\\Page.js:574:20)\n    at async stensScraper (C:\\Users\\Home\\Desktop\\SmallEnginePartsAgent\\agent\\direct-stens-test-11659.js:28:3)\n    at async C:\\Users\\Home\\Desktop\\SmallEnginePartsAgent\\agent\\direct-stens-test-11659.js:258:21"
+}

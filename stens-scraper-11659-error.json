@@ -1,0 +1,5 @@
+{
+  "timestamp": "2025-06-14T20:36:20.625Z",
+  "errorMessage": "stensScraper is not a function",
+  "errorStack": "TypeError: stensScraper is not a function\n    at C:\\Users\\Home\\Desktop\\SmallEnginePartsAgent\\agent\\test-stens-part-11659.js:41:27"
+}

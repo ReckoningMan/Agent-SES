@@ -1,0 +1,28 @@
+{
+  "name": "small-engine-parts-agent",
+  "version": "1.0.0",
+  "description": "Automated agent for small engine parts management and search",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js",
+    "client": "cd Client && npm start",
+    "client:build": "cd Client && npm run build",
+    "agent:run": "cd agent && node enhanced-index.js",
+    "test:scrapers": "cd agent && node test-all-scrapers.js",
+    "install-all": "npm install && cd Client && npm install && cd ../agent && npm install"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  }
+}
